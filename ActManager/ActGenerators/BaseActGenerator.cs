@@ -1,4 +1,4 @@
-﻿using ActManager.Infrastructure;
+﻿using ActManager.Infrastructure.Loggers;
 using ActManager.Models;
 
 namespace ActManager.ActGenerators;

@@ -10,7 +10,7 @@ public class ActGeneratorFactory
         {
             ActType.GoodsAct => new GoodsActGenerator(),
             ActType.DeliveryAct => new DeliveryActGenerator(),
-            _ => throw new NotImplementedException()
+            _ => throw new InvalidOperationException($"Generator for type {type} is not supported yet!")
         };
     }
 }

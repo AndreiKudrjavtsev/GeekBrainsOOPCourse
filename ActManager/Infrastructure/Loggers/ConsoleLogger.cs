@@ -1,6 +1,6 @@
-﻿namespace ActManager.Infrastructure;
+﻿namespace ActManager.Infrastructure.Loggers;
 
-public class ConsoleLogger
+public class ConsoleLogger : ILogger
 {
     public void Log(string message)
     {

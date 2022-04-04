@@ -1,9 +1,9 @@
 ﻿using ActManager.Models;
 using Newtonsoft.Json;
 
-namespace ActManager.Infrastructure;
+namespace ActManager.Infrastructure.DataSources;
 
-public class DataSource
+public class FileDataSource : IDataSource
 {
 
     public ActDataModel GetDataFromSource()
